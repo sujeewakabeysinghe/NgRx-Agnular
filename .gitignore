@@ -44,7 +44,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-
-# https://coursetro.com/posts/code/151/Angular-Ngrx-Store-Tutorial---Learn-Angular-State-Management
-# https://dzone.com/articles/angular-app-state-management-with-ngrx
