@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';  //installed @ngrx/store and added to the imports
+import { reducer } from './reducers/practice.reducer';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,9 @@ import { StoreModule } from '@ngrx/store';  //installed @ngrx/store and added to
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({})
+    StoreModule.forRoot({
+      practice: reducer
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
