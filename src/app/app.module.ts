@@ -8,10 +8,16 @@ import { reducers, metaReducers } from './reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { CustomerModule } from './customer/customer.module';
+import { CounterComponent } from './counter/counter/counter.component';
+import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
+import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterComponent,
+    CounterButtonsComponent,
+    CounterOutputComponent
   ],
   imports: [
     BrowserModule,
